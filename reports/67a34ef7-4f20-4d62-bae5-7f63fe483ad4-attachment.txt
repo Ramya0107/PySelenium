@@ -1,0 +1,1 @@
+[32mINFO    [0m tests.selenium.test_04_katalon_appointment:test_04_katalon_appointment.py:32 url loaded

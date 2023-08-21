@@ -1,7 +1,6 @@
 from selenium import webdriver
 
-# chrome -> chrome options
-# Chrome options -> chrome with the extension, window size, proxy, JS disabled
+# chrome -> chrome options -> chrome with the extension, window size, proxy, JS disabled
 
 
 def test_driver():
