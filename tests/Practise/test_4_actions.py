@@ -23,7 +23,6 @@ def test_actions():
     test_mouse(driver, action)
 
 
-
 def test_drag_drop(driver, action):
     driver.get("https://awesomeqa.com/selenium/mouse_interaction.html")
     drag_from = driver.find_element(By.XPATH, "//div[@id='draggable']")
@@ -40,6 +39,3 @@ def test_mouse(driver, action):
     action.key_down(Keys.SHIFT).send_keys_to_element(textBox, "testing").key_up(Keys.SHIFT).perform()
     print("action 3 passed")
     time.sleep(3)
-
-
-
